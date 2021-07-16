@@ -1,0 +1,15 @@
+[package]
+name = "texint-assets"
+version = "0.1.0"
+edition = "2018"
+
+[build-dependencies]
+bytemuck = "1.7"
+euc = "0.5"
+image = "0.23"
+regex = "1.5"
+
+[dependencies]
+
+[lib]
+name = "assets"

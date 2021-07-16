@@ -1,0 +1,10 @@
+[package]
+name = "texint-renderer"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+cgmath = "0.18"
+gl = "0.14"
+glutin = "0.27"
+texint-assets = { path = "../assets" }
